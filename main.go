@@ -16,16 +16,17 @@ import (
 )
 
 func main() {
-	variable.Variable()
-	constan.Constan()
-	typedata.TypeData()
-	array.Array()
-	slice.Slice()
-	operator.Operator()
-	condition.Condition()
-	switc.Switch()
-	loop.Loop()
-	function.Function()
-	struc.Struct()
-	maps.Maps()
+	// Memanggil fungsi-fungsi dari paket-paket yang diimpor
+	variable.Variable()   // Contoh penggunaan variabel
+	constan.Constan()     // Contoh penggunaan konstanta
+	typedata.TypeData()   // Contoh penggunaan tipe data
+	array.Array()         // Contoh penggunaan array
+	slice.Slice()         // Contoh penggunaan slice
+	operator.Operator()   // Contoh penggunaan operator
+	condition.Condition() // Contoh penggunaan kondisi
+	switc.Switch()        // Contoh penggunaan switch
+	loop.Loop()           // Contoh penggunaan loop
+	function.Function()   // Contoh penggunaan fungsi
+	struc.Struct()        // Contoh penggunaan struktur data
+	maps.Maps()           // Contoh penggunaan map
 }
